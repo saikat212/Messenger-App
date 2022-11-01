@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="myclient1.BMessage_pageController">
+   <children>
+      <TextField fx:id="BMessage_text" layoutX="20.0" layoutY="14.0" prefHeight="88.0" prefWidth="272.0" promptText="Text will send to all Loged in Client" />
+      <Button layoutX="20.0" layoutY="102.0" mnemonicParsing="false" onAction="#BMessage_send_Action" text="Send BMessage" />
+      <Label layoutX="365.0" layoutY="38.0" prefHeight="17.0" prefWidth="191.0" text="See BMessage from login client" />
+      <TextField fx:id="BMmessage_see" layoutX="334.0" layoutY="55.0" prefHeight="120.0" prefWidth="252.0" />
+   </children>
+</AnchorPane>
